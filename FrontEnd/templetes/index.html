@@ -1,0 +1,30 @@
+﻿{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'styles/index.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FriendFinder</title>
+</head>
+<body>
+    <div class='bgimage'>
+           <div class="leftmenu">
+               <h3> Friend Finder</h3>
+               <button id="buttonlogin"><a href="{% static 'Login.html' %}" target='_blank'>
+                   Login/signup</a></button>
+            </div>
+    <div class="text">
+            <h2 id="txt">WELCOME TO FRIEND FINDER</h2>
+            </div> 
+    <div class= "about">
+        <h2 id="aboutus"> About Us </h2>
+        <pre id="border">
+           Email : xyz@gmail.com
+           Contact Number : +91 ********** 
+           </pre>
+           
+    </div>  
+</body>
+</html>

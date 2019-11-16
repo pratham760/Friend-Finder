@@ -1,0 +1,149 @@
+*{
+    font-family: 'Times New Roman', 'sans-serif';
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    color: black;
+
+}
+
+.leftmenu h3{
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    height: 40px;
+    padding: 5px;
+    font-size: 30px;
+    font-weight: bolder;   
+}
+
+a{
+    text-decoration: none;
+}
+
+.bgimage{
+    background-image:url("../images/2.jpg");
+    background-size: 100% 120%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;  
+}
+
+#border{
+    text-align: center;
+}
+
+#buttonlogin{
+    
+   width: 150px;
+   height: 50px;
+   margin-top: 20px;
+   float: right;
+}
+
+.menubar{
+    width: 100%;
+/* displays the FriendFinder and top nav in same line*/
+    display: flex;
+/* justify-content defines the alignment along the main axis.
+It helps distribute extra free space leftover when either all
+the flex items on a line are inflexible, or are flexible but
+have reached their maximum size. It also exerts some control 
+over the alignment of items when they overflow the line.
+space-between: items are evenly distributed in the line; 
+first item is on the start line, last item on the end line*/
+}
+
+.menubar  li{
+    margin- top: 5px;
+    padding: 10px;
+    font-size:25px;
+    list-style: none;
+    float: right;
+}
+
+#buttonlogin a{
+       text-decoration:none;
+}
+
+.leftmenu h3{
+    font-family: futura;
+    font-style: italic;
+    color:#313131;
+     text-align: center;
+    font-weight: bold;
+    -webkit-animation:colorchange 100s infinite alternate;
+}
+
+@-webkit-keyframes colorchange {
+    0% {
+        color: blue;
+       }
+    5% {
+        color: red;
+    }
+    20% {
+        color: black;
+    }
+    30% {
+        color: purple;
+    }
+    40% {
+        color: blue;
+    }
+    50% {
+        color: #34495e;
+    }
+    60% {
+        color: blue;
+    }
+    70% {
+        color: #2980b9;
+    }
+    80% {
+        color: #f1c40f;
+    }
+    90% {
+         color: #2980b9;
+    }
+    100% {
+        color: pink;
+      }
+}
+
+.text{
+    font-size: 30px;
+    margin-top: 110px;
+    width: 100%;
+    text-align: center;
+    text-transform: Uppercase;
+    color: white;
+    /*vertical-align: middle;*/
+}
+
+#txt{
+    font-size: 40px;
+}
+
+.about{
+    background: linear-gradient(to bottom left,green,blue,pink,orange);
+}
+
+#aboutus{
+    margin-top: 450px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 10px;
+}
+/*
+.bgimage{
+     max-width: 100%;
+     height: 100%;
+     background-image: url("1.jpg");
+     background-repeat: no-repeat;
+     background-position: center;
+}
+
+.bg-text{
+    font-size: 25px;
+    color: black;
+}*/
